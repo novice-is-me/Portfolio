@@ -1,4 +1,5 @@
 import About from "./About"
+import Experience from "./Experience"
 import Hero from "./Hero"
 import LeftComp from "./components/LeftComp"
 import Navbar from "./components/Navbar"
@@ -15,7 +16,8 @@ function App() {
           <div className="mx-[8rem] mt-[5rem]">
             <Hero/>
             <About/>
-          </div>
+            <Experience/>
+          </div> 
         <div className=" fixed bottom-0 right-0 ">
           <RightComp/> 
         </div>
