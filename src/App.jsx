@@ -1,6 +1,7 @@
 import About from "./About"
 import Experience from "./Experience"
 import Hero from "./Hero"
+import Project from "./Project"
 import LeftComp from "./components/LeftComp"
 import Navbar from "./components/Navbar"
 import RightComp from "./components/RightComp"
@@ -17,6 +18,7 @@ function App() {
             <Hero/>
             <About/>
             <Experience/>
+            <Project/>
           </div> 
         <div className=" fixed bottom-0 right-0 ">
           <RightComp/> 
