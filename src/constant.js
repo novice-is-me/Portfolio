@@ -1,3 +1,5 @@
+import { food, gym, jokes, messenger, qoutes, studentSystem } from "./assets/image"
+
 export const headerData = [
     {
         id: 1,
@@ -44,12 +46,43 @@ export const workExp = [
     }
 ]
 
-const projectData = [
+export const projectData = [
     {
-        image: "",
-        title: "",
-        description: "",
-        tech: ""
-    }
+        image: studentSystem,
+        title: "Student System",
+        description: "Simple student system consists of create, read, update and delete. Hosted at netlify.",
+        tech: "React JS, JSON, Axios, Tailwind",
+        link: 'https://react-student-system.netlify.app/'
+    },{
+        image: messenger,
+        title: "Messenger Clone",
+        description: "Clone of desktop messenger with the ability to send message on each group chats.",
+        tech: "Javascript, React JS, Tailwind, MaterialUI",
+        link: 'https://clone-messenger.netlify.app/message'
+    },{
+        image: gym,
+        title: "PowerLab Gym",
+        description: "A landing page website of PowerLab consists of the services they offer and their specific prices.",
+        tech: "React JS, Tailwind",
+        link: 'https://powerlab-gym.netlify.app/'
+    },{
+        image: jokes,
+        title: "CompAPI",
+        description: "A compilation of jokes and facts from free API's",
+        tech: "HTML, CSS, JavaScript, Fetch, JQuery, Bootstrap",
+        link: 'https://novice-is-me.github.io/Free-Api/'
+    },{
+        image: qoutes,
+        title: "Qoute Generator",
+        description: "A static qoute generator that randomly displays qoutes from famous individual.",
+        tech: "HTML, CSS, JavaScript, Bootstrap",
+        link: 'https://novice-is-me.github.io/Quote-Generator/'
+    },{
+        image: food,
+        title: "Food Recipe Blog",
+        description: "A static landing page website displaying all featured and famous recipe across the Asia.",
+        tech: "HTML, CSS, Bootstrap",
+        link: 'https://novice-is-me.github.io/Food-Recipe-Blog/' 
+    }   
 ]
 
