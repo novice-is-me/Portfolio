@@ -1,4 +1,4 @@
-import { food, gym, jokes, messenger, qoutes, studentSystem } from "./assets/image"
+import { cert1, cert2, cert3, cert4, cert5, cert6, cert7, cert8, cert9, food, gym, jokes, messenger, qoutes, studentSystem } from "./assets/image"
 
 export const headerData = [
     {
@@ -92,3 +92,33 @@ export const projectData = [
     }   
 ]
 
+export const certData = [
+    {
+        img: cert9,
+        title: "Agile and Project Management"
+    },{
+        img: cert8,
+        title: "Complete Introduction to JS"
+    },{
+        img: cert7,
+        title: "Web Development Open House Workshop"
+    },{
+        img: cert6,
+        title: "Web Development Workshop"
+    },{
+        img: cert5,
+        title: "Introduction to Git and Github"
+    },{
+        img: cert4,
+        title: "DICT: Building Static Website"
+    },{
+        img: cert3,
+        title: "DICT: JS for Web Development"
+    },{
+        img: cert2,
+        title: "DICT: HTML and CSS for Web Development"
+    },{
+        img: cert1, 
+        title: "DICT: Principle of Web Development"
+    },
+]

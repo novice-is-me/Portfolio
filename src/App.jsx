@@ -1,4 +1,5 @@
 import About from "./About"
+import Certificates from "./Certificates"
 import Experience from "./Experience"
 import Hero from "./Hero"
 import Project from "./Project"
@@ -19,6 +20,7 @@ function App() {
             <About/>
             <Experience/>
             <Project/>
+            <Certificates/>
           </div> 
         <div className=" fixed bottom-0 right-0 ">
           <RightComp/> 
