@@ -15,14 +15,15 @@ const SliderComponent = ({cards}) => {
   return (
     <div>
         <button className='p-5 bg-blue-400' onClick={prevSlide}>Previous</button>
-      {cards.map((cert, i) =>{
-        return <div key={i}> 
-            <img src={cert.img} alt="" />
-            <p>{cert.title}</p>
-        </div>
-      })}
+        {cards.map((cert, i) =>{
+            return <div key={i} > 
+                <img src={cert.img} alt="" />
+                <p>{cert.title}</p>
+            </div>
+        })}
+        <button className='p-5 bg-blue-400' onClick={nextSlide}>Previous</button>
     </div>
-  )
+  ) 
 }
 
 export default SliderComponent
