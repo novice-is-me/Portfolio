@@ -7,7 +7,7 @@ const ProjectComponent = () => {
   return (
     <>
       {projectData.map((proj, i) =>{
-        return <div className=' mt-16 flex'>
+        return <div className=' mt-16 flex' key={i}>
           <div className={`w-[60%] ${proj.value % 2 === 0 ? 'order-1' : ''}`}>
             <a href={proj.link} target='_blank'>
               <img src={proj.image} alt="" className=' brightness-50 hover:brightness-100'/> 

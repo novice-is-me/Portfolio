@@ -16,7 +16,7 @@ const SliderComponent = ({cards}) => {
     <div>
         <button className='p-5 bg-blue-400' onClick={prevSlide}>Previous</button>
       {cards.map((cert, i) =>{
-        return <div> 
+        return <div key={i}> 
             <img src={cert.img} alt="" />
             <p>{cert.title}</p>
         </div>

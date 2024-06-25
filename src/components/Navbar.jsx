@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className='flex gap-10 mr-4 items-center'>
         {headerData.map((header, i) =>{
-            return <ul className='flex gap-2 font-mono text-headers'>
+            return <ul className='flex gap-2 font-mono text-headers' key={i}>
                 <p className='text-highlight'>{header.id}. </p>
                 <a href={header.loc} className='hover:text-highlight'>{header.name}</a>
             </ul>

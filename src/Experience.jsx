@@ -25,7 +25,7 @@ const Experience = () => {
       <div className='mt-16 flex gap-14'>
         <div className=''>
           {workExp.map((work, i) => { 
-            return <div className='flex text-center w-[300px]'>
+            return <div className='flex text-center w-[300px]' key={i}>
               <p className={`text-text text-xl font-Poppins p-4 hover:text-highlight hover:cursor-pointer
                ${active === work.value ? 'border-l border-highlight' : ''}`}
                onClick={() => handleClick(work.value)}>

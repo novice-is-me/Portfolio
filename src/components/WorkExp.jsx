@@ -13,7 +13,7 @@ const WorkExp = ({props}) => {
       </div>
       <div className='text-text font-Poppins mt-4 flex flex-col gap-4'>
         {props.role.map((item, i) =>{
-          return <ul> 
+          return <ul key={i}> 
             <li className=' flex items-center'>
               <ArrowRightIcon fontSize='large' style={{color: '#64ffda'}}/>
               {item}</li>
