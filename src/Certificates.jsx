@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick'
 import { certData } from './constant'
+import SliderComponent from './components/SliderComponent'
 
 const Certificates = () => {
   const settings ={
@@ -19,14 +20,7 @@ const Certificates = () => {
           <div className='ml-4 border border-[#233554] w-[30%] h-0 '></div>
         </div>
         <div className='slider-container w-[300px] flex'>
-          <Slider {...settings}>
-              {certData.map((data, i) =>{
-                return <div>
-                  <img src={data.img} alt="" className=''/>
-                  <p>{data.title}</p> 
-                </div>
-              })}
-          </Slider>
+          <SliderComponent cards={certData}/> 
         </div>
     </section>
   )
