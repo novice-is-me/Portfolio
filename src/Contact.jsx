@@ -10,19 +10,25 @@ const Contact = () => {
           <div className='ml-4 border border-[#233554] w-[30%] h-0 '></div>
         </div>
         <div className=''>
-            <p className='text-headers font-Inter text-center'>Inbox Me!</p>
-            <form action="" className='flex flex-col'>
-                <div className='flex justify-between mx-40 gap-4'>
+            <p className='text-headers font-Poppins text-center text-3xl my-8'>Inbox Me!</p>
+            <form action="" className='flex flex-col mx-8'>
+                <div className='flex justify-between mx-40 gap-8'>
                     <div className='flex flex-col w-full'>
                         <label htmlFor="" className='font-Poppins text-text text-xl'>First Name</label>
-                        <input type="text" name='firstName'/>
-                    </div>
+                        <input type="text" name='firstName' 
+                        className='h-[2rem] border-b border-b-[#8892b0] outline-none bg-transparent font-Poppins text-white'
+                        autoComplete='off'
+                        />
+                    </div> 
                     <div className='flex flex-col w-full'>
                         <label htmlFor="" className='font-Poppins text-text text-xl'>Last Name</label>
-                        <input type="text" name='lastName'/>
+                        <input type="text" name='lastName' 
+                        className='h-[2rem] border-b border-b-[#8892b0] outline-none bg-transparent font-Poppins text-white'
+                        autoComplete='off'
+                        />
                     </div>
                 </div>
-                <div>
+                <div className='w-full'>
                     <label htmlFor=""></label>
                     <textarea name="" id=""></textarea>
                 </div>
