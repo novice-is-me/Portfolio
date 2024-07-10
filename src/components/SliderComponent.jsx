@@ -27,9 +27,9 @@ const SliderComponent = ({cards}) => {
             onClick={prevSlide} 
             text={"Previous"}/>
         {visibleCard.map((cert, i) =>{
-            return <div key={i} className='h-full mx-8'> 
+            return <div key={i} className='flex flex-col h-full mx-8'> 
                 <img src={cert.img} alt="" className='h-full object-cover' />
-                <p>{cert.title}</p>
+                <p className='text-headers font-Poppins text-2xl text-center my-4'>{cert.title}</p>
             </div>
         })}
         <Button className='4' 
