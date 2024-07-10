@@ -19,7 +19,7 @@ const Certificates = () => {
             Certificates</p>  
           <div className='ml-4 border border-[#233554] w-[30%] h-0 '></div>
         </div>
-        <div className='slider-container w-[300px] flex'>
+        <div className='slider-container flex justify-center h-[400px] my-8'>
           <SliderComponent cards={certData}/> 
         </div>
     </section>
