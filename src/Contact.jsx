@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './components/Button';
 
 const Contact = () => {
   return (
@@ -28,9 +29,13 @@ const Contact = () => {
                         />
                     </div>
                 </div>
-                <div className='w-full'>
-                    <label htmlFor=""></label>
-                    <textarea name="" id=""></textarea>
+                <div className='w-full flex flex-col my-8 items-center'>
+                    <label htmlFor="" className=' text-text text-xl text-center mb-5'>
+                      Message Me!</label>
+                    <textarea name="" id="" rows={5} className=' w-[50%] p-3'></textarea>
+                </div>
+                <div className=' w-[30%]  mx-auto'>
+                  <Button text={'Send'}/>
                 </div>
             </form>
         </div>
