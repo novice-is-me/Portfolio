@@ -9,6 +9,7 @@ import {
   cert8,
   cert9,
   cryptoVault,
+  dashflow,
   food,
   gym,
   jobportal1,
@@ -84,13 +85,22 @@ export const workExp = [
 
 export const projectData = [
   {
+    image: dashflow,
+    title: "DashFlow",
+    description:
+      "Personalized and customizable dashboard integrating different API's. Creation of tasks, notes and calendar events all in one place.",
+    tech: "React.js, Tailwind CSS, Geolocation API",
+    link: "https://personalized-dashboard-beta.vercel.app/",
+    value: 0,
+  },
+  {
     image: cryptoVault,
     title: "CryptoVault",
     description:
       "Track, analyze, and manage your cryptocurrency portfolio with real-time data and advanced insights.",
     tech: "Vue.js, Tailwind CSS, CoinGecko API",
     link: "https://crypto-web-pearl.vercel.app/",
-    value: 0,
+    value: 1,
   },
   {
     image: jobportal1,
@@ -99,7 +109,7 @@ export const projectData = [
       "A job portal website that allows users to search and apply for jobs. It includes admin panel for managing job listings and applications.",
     tech: "Vue.js, Inertia JS, Laravel, MySQL, Tailwind CSS",
     link: null,
-    value: 1,
+    value: 2,
     images: [jobportal1, jobportal2, jobportal3, jobportal4],
   },
   {
@@ -109,52 +119,52 @@ export const projectData = [
       "Simple student system consists of create, read, update and delete. Hosted at netlify.",
     tech: "React JS, JSON, Axios, Tailwind",
     link: "https://react-student-system.netlify.app/",
-    value: 2,
-  },
-  {
-    image: messenger,
-    title: "Messenger Clone",
-    description:
-      "Clone of desktop messenger with the ability to send message on each group chats.",
-    tech: "Javascript, React JS, Tailwind, MaterialUI",
-    link: "https://clone-messenger.netlify.app/",
     value: 3,
   },
-  {
-    image: gym,
-    title: "PowerLab Gym",
-    description:
-      "A landing page website of PowerLab consists of the services they offer and their specific prices.",
-    tech: "React JS, Tailwind",
-    link: "https://powerlab-gym.netlify.app/",
-    value: 4,
-  },
-  {
-    image: jokes,
-    title: "CompAPI",
-    description: "A compilation of jokes and facts from free API's",
-    tech: "HTML, CSS, JavaScript, Fetch, JQuery, Bootstrap",
-    link: "https://novice-is-me.github.io/Free-Api/",
-    value: 5,
-  },
-  {
-    image: qoutes,
-    title: "Qoute Generator",
-    description:
-      "A static qoute generator that randomly displays qoutes from famous individual.",
-    tech: "HTML, CSS, JavaScript, Bootstrap",
-    link: "https://novice-is-me.github.io/Quote-Generator/",
-    value: 5,
-  },
-  {
-    image: food,
-    title: "Food Recipe Blog",
-    description:
-      "A static landing page website displaying all featured and famous recipe across the Asia.",
-    tech: "HTML, CSS, Bootstrap",
-    link: "https://novice-is-me.github.io/Food-Recipe-Blog/",
-    value: 6,
-  },
+  // {
+  //   image: messenger,
+  //   title: "Messenger Clone",
+  //   description:
+  //     "Clone of desktop messenger with the ability to send message on each group chats.",
+  //   tech: "Javascript, React JS, Tailwind, MaterialUI",
+  //   link: "https://clone-messenger.netlify.app/",
+  //   value: 3,
+  // },
+  // {
+  //   image: gym,
+  //   title: "PowerLab Gym",
+  //   description:
+  //     "A landing page website of PowerLab consists of the services they offer and their specific prices.",
+  //   tech: "React JS, Tailwind",
+  //   link: "https://powerlab-gym.netlify.app/",
+  //   value: 4,
+  // },
+  // {
+  //   image: jokes,
+  //   title: "CompAPI",
+  //   description: "A compilation of jokes and facts from free API's",
+  //   tech: "HTML, CSS, JavaScript, Fetch, JQuery, Bootstrap",
+  //   link: "https://novice-is-me.github.io/Free-Api/",
+  //   value: 5,
+  // },
+  // {
+  //   image: qoutes,
+  //   title: "Qoute Generator",
+  //   description:
+  //     "A static qoute generator that randomly displays qoutes from famous individual.",
+  //   tech: "HTML, CSS, JavaScript, Bootstrap",
+  //   link: "https://novice-is-me.github.io/Quote-Generator/",
+  //   value: 5,
+  // },
+  // {
+  //   image: food,
+  //   title: "Food Recipe Blog",
+  //   description:
+  //     "A static landing page website displaying all featured and famous recipe across the Asia.",
+  //   tech: "HTML, CSS, Bootstrap",
+  //   link: "https://novice-is-me.github.io/Food-Recipe-Blog/",
+  //   value: 6,
+  // },
 ];
 
 export const certData = [

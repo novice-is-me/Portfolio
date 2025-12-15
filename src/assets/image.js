@@ -20,6 +20,7 @@ import jobportal1 from "./jobportal1.png";
 import jobportal2 from "./jobportal2.png";
 import jobportal3 from "./jobportal3.png";
 import jobportal4 from "./jobportal4.png";
+import dashflow from "./dashflow.png";
 
 export {
   logo,
@@ -44,4 +45,5 @@ export {
   jobportal2,
   jobportal3,
   jobportal4,
+  dashflow,
 };
