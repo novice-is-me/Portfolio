@@ -8,8 +8,13 @@ import {
   cert7,
   cert8,
   cert9,
+  cryptoVault,
   food,
   gym,
+  jobportal1,
+  jobportal2,
+  jobportal3,
+  jobportal4,
   jokes,
   messenger,
   qoutes,
@@ -79,13 +84,32 @@ export const workExp = [
 
 export const projectData = [
   {
+    image: cryptoVault,
+    title: "CryptoVault",
+    description:
+      "Track, analyze, and manage your cryptocurrency portfolio with real-time data and advanced insights.",
+    tech: "Vue.js, Tailwind CSS, CoinGecko API",
+    link: "https://crypto-web-pearl.vercel.app/",
+    value: 0,
+  },
+  {
+    image: jobportal1,
+    title: "Job Portal",
+    description:
+      "A job portal website that allows users to search and apply for jobs. It includes admin panel for managing job listings and applications.",
+    tech: "Vue.js, Inertia JS, Laravel, MySQL, Tailwind CSS",
+    link: null,
+    value: 1,
+    images: [jobportal1, jobportal2, jobportal3, jobportal4],
+  },
+  {
     image: studentSystem,
     title: "Student System",
     description:
       "Simple student system consists of create, read, update and delete. Hosted at netlify.",
     tech: "React JS, JSON, Axios, Tailwind",
     link: "https://react-student-system.netlify.app/",
-    value: 1,
+    value: 2,
   },
   {
     image: messenger,
@@ -94,7 +118,7 @@ export const projectData = [
       "Clone of desktop messenger with the ability to send message on each group chats.",
     tech: "Javascript, React JS, Tailwind, MaterialUI",
     link: "https://clone-messenger.netlify.app/",
-    value: 2,
+    value: 3,
   },
   {
     image: gym,
@@ -103,7 +127,7 @@ export const projectData = [
       "A landing page website of PowerLab consists of the services they offer and their specific prices.",
     tech: "React JS, Tailwind",
     link: "https://powerlab-gym.netlify.app/",
-    value: 3,
+    value: 4,
   },
   {
     image: jokes,
@@ -111,7 +135,7 @@ export const projectData = [
     description: "A compilation of jokes and facts from free API's",
     tech: "HTML, CSS, JavaScript, Fetch, JQuery, Bootstrap",
     link: "https://novice-is-me.github.io/Free-Api/",
-    value: 4,
+    value: 5,
   },
   {
     image: qoutes,
