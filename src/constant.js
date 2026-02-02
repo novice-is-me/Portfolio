@@ -89,9 +89,8 @@ export const projectData = [
     title: "DashFlow",
     description:
       "Personalized and customizable dashboard integrating different API's. Creation of tasks, notes and calendar events all in one place.",
-    tech: "React.js, Tailwind CSS, Geolocation API",
+    tech: "React.js, Tailwind CSS, Firebase, Google Calendar API, Geolocation API",
     link: "https://personalized-dashboard-beta.vercel.app/",
-    value: 0,
   },
   {
     image: cryptoVault,
