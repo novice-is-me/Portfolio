@@ -44,8 +44,6 @@ const Experience = () => {
         </div>
         <div className="flex-1">
           {active === "default" && <WorkExp props={workExp[0]} />}
-          {active === "8box" && <WorkExp props={workExp[1]} />}
-          {active === "yaramay" && <WorkExp props={workExp[2]} />}
         </div>
       </div>
     </section>

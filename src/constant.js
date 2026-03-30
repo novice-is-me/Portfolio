@@ -59,28 +59,28 @@ export const workExp = [
     ],
     value: "default",
   },
-  {
-    name: "8box Solutions Inc.",
-    title: "Front End Developer (OJT)",
-    date: "February - May 2024",
-    role: [
-      "Contributed to frontend development of the “Laro App” using React.js, Tailwind CSS, and reusable UI components.",
-      "Improved website performance by implementing advanced React optimization techniques",
-      "Customized WordPress themes using Vanilla CSS and JavaScript, and built sections using Elementor.",
-      "Delivered fully responsive designs ensuring compatibility across all device sizes",
-    ],
-    value: "8box",
-  },
-  {
-    name: "Yaramay Computer Service",
-    title: "Front End Developer (Part Time)",
-    date: "October 2023",
-    role: [
-      "Spearheaded the development of the OFW Serbisyo Kooperatiba landing page using a comprehensive skill set encompassing HTML,CSS, Javascript, and Bootstrap.",
-      "Orchestrated the layout design for the Mapiya Landing page, employing Figma to ensure a seamless and visually appealing user interface.",
-    ],
-    value: "yaramay",
-  },
+  // {
+  //   name: "8box Solutions Inc.",
+  //   title: "Front End Developer (OJT)",
+  //   date: "February - May 2024",
+  //   role: [
+  //     "Contributed to frontend development of the “Laro App” using React.js, Tailwind CSS, and reusable UI components.",
+  //     "Improved website performance by implementing advanced React optimization techniques",
+  //     "Customized WordPress themes using Vanilla CSS and JavaScript, and built sections using Elementor.",
+  //     "Delivered fully responsive designs ensuring compatibility across all device sizes",
+  //   ],
+  //   value: "8box",
+  // },
+  // {
+  //   name: "Yaramay Computer Service",
+  //   title: "Front End Developer (Part Time)",
+  //   date: "October 2023",
+  //   role: [
+  //     "Spearheaded the development of the OFW Serbisyo Kooperatiba landing page using a comprehensive skill set encompassing HTML,CSS, Javascript, and Bootstrap.",
+  //     "Orchestrated the layout design for the Mapiya Landing page, employing Figma to ensure a seamless and visually appealing user interface.",
+  //   ],
+  //   value: "yaramay",
+  // },
 ];
 
 export const projectData = [
